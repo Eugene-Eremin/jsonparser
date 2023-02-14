@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es5", "es6", "dom", "dom.iterable"],
+    "target": "es2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node _modules"],
+  "lib": [
+    "es2017",
+    "dom",
+    "ES2017.object"
+  ]
+}
